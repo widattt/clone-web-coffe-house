@@ -1,0 +1,77 @@
+.container-home .menu-home {
+    margin-top:  60px;
+}
+
+.container-home .home-brands {
+    margin-top: 50px;
+    background-color: #fff7e6;
+}
+
+.container-home .store-home .arrow-left {
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    top: 0;
+    left: 15px;
+    bottom: 0;
+    margin: auto;
+}
+
+.container-home .store-home .arrow-right {
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    top: 0;
+    right: 7px;
+    bottom: 0;
+    margin: auto;
+}
+
+.container-home .blog_home .blog_home_blogtitle {
+    border-left: 4px solid #e57905;
+}
+
+.blog_home .blog_home_blogtitle > h2 {
+    font-size: 26px;
+}
+
+.blog-list .zoom-in {
+    overflow: hidden;
+}
+
+.blog-list .zoom-in img {
+    transition:  0.6s ease-in-out;
+    cursor: pointer;
+    transform: scale(1);
+    object-fit: cover;
+}
+
+.blog-list .zoom-in:hover img {
+    transform: scale(1.2);
+}
+
+.store-home .slider_img {
+    overflow: hidden;
+}
+
+.store-home .slider_img .slide {
+    opacity: 0.95;
+    transition: all 0.5s linear;
+
+}
+
+
+.store-home .slider_img .slide.active {
+    opacity: 1;
+    transition: all 1s linear;
+    
+}
+
+.store-home .slider_img .slide.active img {
+
+    height: 450px;
+}
+
+
+
+

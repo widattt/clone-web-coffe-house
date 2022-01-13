@@ -1,0 +1,54 @@
+.container div h4 {
+    position: relative;
+    margin-bottom: 20px;
+}
+.container div h4::before {
+    content: '';
+    position: absolute;
+    top: 140%;
+    left: 43%;
+    height: 4px;
+    width: 30px;
+    background-color: #ed8626;
+}
+
+.page_filter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 20px;
+    width: 120px;
+    height: 40px;
+    font-weight: 500;
+    color: rgba(0,0,0,0.6);
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.page_filter.active {
+    color: #ed8626;
+    background-color: #fff7e6;
+}
+
+.side_bar_story {
+    margin-top: 25px;
+    
+}
+
+.side_bar_story.active {
+    position: fixed;
+    top: 80px;
+    right: 70px;
+    
+}
+
+.side_bar_story div div h5 {
+    margin-bottom: 6px;
+    color: #ed8626;
+}
+
+.side_bar_story div div p {
+    margin: 6px 0;
+    color: grey;
+}

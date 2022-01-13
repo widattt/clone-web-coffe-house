@@ -1,0 +1,96 @@
+.navbar_recruitment {
+    height: 68px;
+    background: white;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 99;
+}
+
+.indicate {
+    background-color: white;
+    color: black;
+}
+.indicate:hover {
+    color: black;
+}
+
+.indicate-item-1.active {
+    background-color: #ff6725;
+    color: white;
+}
+.indicate-item-2.active {
+    background-color: #ff6725;
+    color: white;
+}
+.indicate-item-3.active {
+    background-color: #ff6725;
+    color: white;
+}
+.indicate-item-4.active {
+    background-color: #ff6725;
+    color: white;
+}
+
+.carousel-control-prev .visually-hidden {
+    display: none;
+}
+
+.carousel-control-next .visually-hidden {
+    display: none;
+}
+
+
+.carousel-control-prev .carousel-control-prev-icon {
+    background-color: grey;
+    cursor: pointer;
+}
+
+.carousel-control-next .carousel-control-next-icon {
+    background-color: grey;
+    cursor: pointer;
+}
+
+.tcf-gallery-image-body{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 0.75rem 0.75rem;
+    grid-auto-columns: 300px;
+    animation: slide 150s linear 0s infinite ;
+}
+
+.tcf-gallery-image-body .tcf-gallery-item {
+    width: 100%;
+    background-color: white;
+    padding: 0.75rem;   
+}
+
+.tcf-gallery-image-body .tcf-gallery-item a {
+    height: 326px;
+    display: block;
+}
+
+.tcf-gallery-image-body .tcf-gallery-item a img {
+    width: 100%;
+    height: 326px;
+    object-fit: cover;
+}
+
+.tcf-gallery-image-body .tcf-gallery-item .tcf-gallery-item-description p {
+    font-size: 18px;
+    font-weight: 300;
+    color: #000;
+    text-align: center;
+    font-family: "tcfh-amticsc-bold";
+    margin-top: 10px;
+}
+
+@keyframes slide {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(-100%);
+    }
+}

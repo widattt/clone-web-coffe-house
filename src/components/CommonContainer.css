@@ -1,0 +1,16 @@
+.row .wrap_img_item_coffee img {
+    width: 100%;
+    border-radius: 6px;
+}
+
+.row > div > .info_item_coffee > a {
+    display: block;
+    text-decoration: none;
+    color: rgba(0,0,0,0.8);
+    font-weight: 500;
+}
+
+.row > div > .info_item_coffee > a:hover {
+    color: #ed8225;
+    
+} 

@@ -1,0 +1,141 @@
+.border-2 {
+    border-width: 2px !important;
+}
+
+.page_banner {
+    position: relative;
+}
+
+.page_banner .banner {
+    width: 100%;
+    height: 161px;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.1) ), url('https://file.hstatic.net/1000075078/file/untitled_design_64d7e90f1ee04cdaa5fa3ae45c4cf56b.png') no-repeat center center / cover;
+}
+
+.page_banner .banner_text {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .row .page_aside > p {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.container .row .page_aside > ul {
+    list-style: none;
+}
+
+.container .row .page_aside > ul > li {
+    margin: 10px 0;
+    color: #847592;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.container .row .page_aside > ul > li:hover {
+    color: #e57905;
+}
+
+.container .row .filter_distric {
+    width: 280px;
+    height: 40px;
+    outline: none;
+    border-radius: 6px;
+    border-color: rgba(0,0,0,0.2);
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.container .row .row .store_department {
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 254px;
+}
+
+.container .row .row .store_department a img {
+    transform: scale(1);
+    border-radius: 10px;
+    transition: 0.3s ease-in;
+    height: 100%;
+}
+
+.container .row .row .store_department a:hover img {
+    transform: scale(1.08);
+}
+
+
+
+.container .row .row .store_department .arrow_back {
+    position: absolute;
+    font-size: 26px;
+    left: 0;
+    color: white;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    cursor: pointer;
+}
+
+.container .row .row .store_department .arrow_forward {
+    position: absolute;
+    font-size: 26px;
+    right: 0;
+    color: white;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    cursor: pointer;
+}
+
+.container .row .row .btn_map {
+    width: 100%;
+    background: #fff7e6;
+    font-weight: 500;
+    color: #e57905;
+    margin: 6px 0;
+    transition: all 0.4s linear;
+    
+}
+
+.container .row .row .btn_map:hover {
+    box-shadow: inset 400px 0 0 0 white;
+    border: 1px solid #fff7e6;
+  }
+
+.container .row .row .link_social {
+    display: flex;
+    align-items: center;
+}
+
+.container .row .row .link_social .link_social_icon > a {
+    color: #666666;
+}
+
+.container .row .row .store_service {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container .row .btn_more {
+    width: 282px;
+    height: 40px;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 10px;
+    font-weight: 500;
+    margin: 0 auto;
+}
+
+.container .row .page_aside .active {
+    color: #e57905;
+}

@@ -1,0 +1,123 @@
+.reward_list_rank ul .li-1 {
+    border-bottom: 12px solid #f0b879;
+}
+
+.reward_list_rank ul .li-2 {
+    border-bottom: 12px solid #94651e;
+}
+
+.reward_list_rank ul .li-3 {
+    border-bottom: 12px solid #ededed;
+}
+
+.reward_list_rank ul .li-4 {
+    border-bottom: 12px solid #f2c446;
+}
+
+.reward_list_rank ul .li-5 {
+    border-bottom: 24px solid #ed8626;
+}
+
+.reward_new_points {
+    width: 153px;
+    border: 1px solid #ed8626;
+    color: #ed8626;
+    position: relative;
+}
+
+.reward_new_points p {
+    font-size: 12px;
+    z-index: 1;
+    font-weight: 500;
+}
+
+
+.reward_new_points:hover p {
+    color: white;
+}
+
+.reward_new_points::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #ed8626;
+    z-index: -1;
+    transform: translateX(-100%); 
+    transition: transform 0.3s ease-in-out;   
+    transform: scaleX(0);
+    transform-origin: left;
+}
+.reward_new_points:hover::before {
+    transform: scaleX(1)
+}
+
+.list_howto_reward_1{
+    top: 0;
+    left: 0;
+    right: 87%;
+    bottom: 75%;
+    position: absolute;
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list_howto_reward_2{
+    top: 0;
+    left: 0;
+    right: 87%;
+    bottom: 40%;
+    position: absolute;
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list_howto_reward_3{
+    top: 0;
+    left: 0;
+    right: 87%;
+    bottom: 50%;
+    position: absolute;
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list_howto_reward > h6 {
+    margin-bottom: 0;
+    color: white;
+    font-size: 25px;
+}
+
+.border_reward {
+    position: relative;
+}
+
+.border_reward::before {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 30px;
+    top: 13px;
+    right: 10px;
+    border-left: 2px solid black;
+}
+.border_reward::after {
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 10px;
+    top: 20px;
+    right:5px;
+    border-bottom: 2px solid black;
+}

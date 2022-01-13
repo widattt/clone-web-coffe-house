@@ -1,0 +1,10 @@
+.footer {
+    background-color: #262626;
+}
+
+.container .row .footer-img {
+    width: 100%;
+    height: 95px;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.4), transparent 80% ), url('https://scontent-sin6-2.xx.fbcdn.net/v/t39.30808-6/p130x130/244233002_3084835728457099_3690024797069741676_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=dd9801&_nc_ohc=Pff2ImvSk2wAX8cHvMy&_nc_oc=AQlF6nYpC5oEfstCPzMCT2aak1Z0RiAqLynVRXz1I-7k9Xvm2UcdrusBTPlUpXF6ZLTftUyyWBz0wdtQiJrfvHy0&tn=iO1rfDR3K4X6gbSd&_nc_ht=scontent-sin6-2.xx&edm=AOm7FCUEAAAA&oh=00_AT8VORWlIoEd-Kc9xt42sQL-756R_Z_efDuSRNhYYosnlw&oe=61E06A83') no-repeat center center / cover;
+
+}
