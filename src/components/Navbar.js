@@ -12,15 +12,28 @@ function Navbar({bg}) {
     const getuseRef = useRef(null)
 
 
-    window.addEventListener('scroll', function() {
-        
-        if(window.scrollY >= 45) {
-            setActiveNav(true)
+    useEffect(()=> {
+        window.addEventListener('scroll', function() {
+            
+            if(window.scrollY >= 45) {
+                setActiveNav(true)
+            }
+            else {
+                setActiveNav(false)
+            }
+        })
+        return ()=> {
+            window.removeEventListener('scroll', function() {
+            
+                if(window.scrollY >= 45) {
+                    setActiveNav(true)
+                }
+                else {
+                    setActiveNav(false)
+                }
+            })
         }
-        else {
-            setActiveNav(false)
-        }
-    })
+    },[])
     return (
         <>
             <div className='top_bar container d-flex justify-content-center py-2'>
