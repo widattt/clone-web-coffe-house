@@ -1,5 +1,6 @@
 import React from 'react'
 import { dataCoffee } from '../dataCoffee'
+import { dataTea } from '../dataTea'
 import './CommonContainer.css'
 
 function CommonContainer({props}) {
@@ -9,10 +10,10 @@ function CommonContainer({props}) {
                 <img src = 'https://file.hstatic.net/1000075078/file/des_288x700_cpg-combo-qua-tet_2ee88e1f1b654190a93cf2dc457c5dfa_master_bbc77fc0fb424e78982ae59da775166b_master.jpg' className='w-100' alt='' />
             </div>
             <div className='container mt5'>
-                <h4 className='mt-3'>Cà Phê Tại Nhà</h4>
+                <h4 className='mt-3'>{props.title}</h4>
                 <div className='row mt4 mb-5'>
-                    {
-                        props.map((item, index) => {
+                   {props.dataCoffee && (
+                        props.dataCoffee.map((item, index) => {
                             return (
                                 <div key={index} className='col-3 mb-2'>
                                     <a href='' className='wrap_img_item_coffee'>
@@ -29,6 +30,27 @@ function CommonContainer({props}) {
                                 </div>
                             )
                         })
+                        )
+                    }
+                    {props.dataTea && (
+                        props.dataTea.map((item, index) => {
+                            return (
+                                <div key={index} className='col-3 mb-2'>
+                                    <a href='' className='wrap_img_item_coffee'>
+                                        <img src={item.image} className='w-100 shadow' />
+                                    </a>
+                                    <div className='info_item_coffee'>
+                                        <a href='' className='mt-3'>{item.title}</a>
+                                        {
+                                            index === 0 ? <a style={{color: `${index === 0 ? '#ed8225' : ''}`}}>{item.price}</a> :
+                                            <p className='text-muted'>{item.price}</p>
+                                        }
+                                        
+                                    </div>
+                                </div>
+                            )
+                        })
+                        )
                     }
                 </div>
             </div>

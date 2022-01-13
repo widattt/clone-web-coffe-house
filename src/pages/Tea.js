@@ -5,11 +5,11 @@ import Navbar from '../components/Navbar'
 import { dataTea } from '../dataTea'
 
 function Tea() {
-    
+    const title = 'Trà tại nhà'
     return (
         <div>
             <Navbar />
-            <CommonContainer props={dataTea} />
+            <CommonContainer props={{dataTea,title}} />
             <Footer />
         </div>
     )

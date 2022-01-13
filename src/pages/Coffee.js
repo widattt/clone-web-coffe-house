@@ -5,11 +5,12 @@ import Navbar from '../components/Navbar'
 import { dataCoffee } from '../dataCoffee'
 
 function Coffee() {
-    
+    const title = 'Cà phê tại nhà'
     return (
+        
         <div>
             <Navbar />
-            <CommonContainer props={dataCoffee} />
+            <CommonContainer props={{dataCoffee,title}} />
             <Footer />
         </div>
     )
