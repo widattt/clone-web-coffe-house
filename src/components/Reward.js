@@ -52,8 +52,8 @@ function Reward() {
         </div>
         <div className='container d-flex flex-column align-items-center py-5'>
             <div className='col-10'>
-                <h4 className='text-center mb-0'>CHƯƠNG TRÌNH KHÁCH HÀNG THÂN THIẾT MỚI</h4>
-                <h4 className='text-center mt-1 mb-0'>THE COFFEE HOUSE REWARDS 3.0</h4>
+                <h3 className='text-center mb-0'>CHƯƠNG TRÌNH KHÁCH HÀNG THÂN THIẾT MỚI</h3>
+                <h3 className='text-center mt-1 mb-0'>THE COFFEE HOUSE REWARDS 3.0</h3>
                 <p style={{color:'#474640'}} className='text-center mb-0 mt-4'><em>Còn gì tuyệt vời hơn khi đến với The Coffee House, không chỉ để tận hưởng</em></p>
                 <p style={{color:'#474640'}} className='text-center mb-0'><em>không gian và thưởng thức những món thức uống thơm lừng, bạn còn có</em></p>
                 <p style={{color:'#474640'}} className='text-center mb-0'><em>thể tích lũy BEAN để thăng hạng và nhận ngay những đặc quyền tuyệt vời</em></p>
@@ -105,8 +105,8 @@ function Reward() {
         <div className='container p-4 d-flex flex-column align-items-center'>
             <div style={{width: 600}}>
                 <div className='text-center mb-4'>
-                    <h4 className='mb-0'>Thăng hạng dễ dàng</h4>
-                    <h4>Quyền lợi đa dạng & hấp dẫn</h4>
+                    <h3 className='mb-0'>Thăng hạng dễ dàng</h3>
+                    <h3>Quyền lợi đa dạng & hấp dẫn</h3>
                 </div>
                 <div className='text-center'>
                     <p>Cơ hội tích BEAN thăng hạng và đổi lấy hàng ngàn ưu đãi cực hấp dẫn từ The Coffee House và các đối tác. Hãy nhanh chóng thăng lên hạng Kim Cương để được hưởng những đặc quyền thượng hạng chỉ có tại The Coffee House nhé!</p>
@@ -203,8 +203,8 @@ function Reward() {
         <div className='container p-4'>
             <div className='row d-flex justify-content-center'>
                 <div className='text-center col-8 mb-5'>
-                    <h4>BEAN tích luỹ vô hạn</h4>
-                    <h4>Tích càng nhiều, ưu đãi càng nhiều</h4>
+                    <h3>BEAN tích luỹ vô hạn</h3>
+                    <h3>Tích càng nhiều, ưu đãi càng nhiều</h3>
                     <p className='my-4'><em>Với chính sách tích điểm mới, số BEAN tích lũy được không chỉ dùng để xét hạng thành viên, mà còn dùng để <strong>đổi ưu đãi</strong> đa dạng và hấp dẫn hơn tại <strong>Cửa Hàng Ưu Đãi</strong> của The Coffee House.Giờ đây, bạn có thể thỏa thích tích BEAN càng nhiều, để nhận ưu đãi càng nhiều.</em></p>
                     <button style={{width: 153, height: 48, borderColor:'#ed8626',color:'#ed8626'}} className='btn reward_new_points'>
                         <p className='mb-0'>TÌM HIỂU THÊM</p>
@@ -212,7 +212,7 @@ function Reward() {
                 </div>
                 <div className='row justify-content-center py-5 mt-5'>
                     <div className='col-8 text-center mb-4'>
-                        <h4 className='mb-3'>Hướng dẫn trở thành thành viên The Coffee House</h4>
+                        <h3 className='mb-3'>Hướng dẫn trở thành thành viên The Coffee House</h3>
                         <p><em>Không chỉ dừng lại ở thưởng thức, với chính sách tích điểm mới tại phiên bản The Coffee House reward 3.0, bạn còn có thể tích BEAN dễ dàng để thăng hạng nhanh chóng và đổi lấy hàng ngàn ưu đãi cực kì hấp dẫn chỉ có tại The Coffee House.</em></p>
                     </div>
                     <div className='col-12 d-flex'>
