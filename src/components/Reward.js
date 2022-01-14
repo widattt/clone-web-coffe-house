@@ -260,7 +260,7 @@ function Reward() {
         <div className='container mb-5'>
             <div className='row'>
                 <div className='col-12'>
-                    <h4 className='pb-4 border-bottom border-dark text-center'>Những câu hỏi thường gặp</h4>
+                    <h5 className='pb-4 border-bottom border-dark text-center'>Những câu hỏi thường gặp</h5>
                     <h5 className='my-3'>CỬA HÀNG ƯU ĐÃI</h5>
                     <div className='my-4 row'>
                         <div className='col-6'>
